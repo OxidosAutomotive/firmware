@@ -1,0 +1,5 @@
+[package]
+name = "cyw43"
+edition.workspace = true
+version.workspace = true
+
