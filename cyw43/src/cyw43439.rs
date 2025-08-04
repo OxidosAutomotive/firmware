@@ -7,29 +7,29 @@ pub static FW: &[u8] = include_bytes!("../resources/43439A0.bin");
 pub static CLM: &[u8] = include_bytes!("../resources/43439A0.clm_blob");
 
 /// NVRAM
-pub static NVRAM: &[u8] = b"NVRAMRev=$Rev$\x00\
+pub static NVRAM: &[u8] = b"
+    NVRAMRev=$Rev$\x00\
     manfid=0x2d0\x00\
-    prodid=0x088f\x00\
+    prodid=0x0727\x00\
     vendid=0x14e4\x00\
     devid=0x43e2\x00\
-    boardtype=0x088f\x00\
+    boardtype=0x0887\x00\
     boardrev=0x1100\x00\
     boardnum=22\x00\
-    macaddr=00:90:4c:2e:20:01\x00\
+    macaddr=00:A0:50:b5:59:5e\x00\
     sromrev=11\x00\
     boardflags=0x00404001\x00\
-    boardflags3=0x08000000\x00\
-    xtalfreq=26000\x00\
+    boardflags3=0x04000000\x00\
+    xtalfreq=37400\x00\
     nocrc=1\x00\
     ag0=255\x00\
     aa2g=1\x00\
     ccode=ALL\x00\
     pa0itssit=0x20\x00\
     extpagain2g=0\x00\
-    pa2ga0=-168,6777,-789\x00\
+    pa2ga0=-168,6649,-778\x00\
     AvVmid_c0=0x0,0xc8\x00\
-    AvVmidIQcal=0x2,0xa8\x00\
-    cckpwroffset0=2\x00\
+    cckpwroffset0=5\x00\
     maxp2ga0=84\x00\
     txpwrbckof=6\x00\
     cckbw202gpo=0\x00\
@@ -50,8 +50,8 @@ pub static NVRAM: &[u8] = b"NVRAMRev=$Rev$\x00\
     il0macaddr=00:90:4c:c5:12:38\x00\
     wl0id=0x431b\x00\
     deadman_to=0xffffffff\x00\
-    muxenab=0x1\x00\
+    muxenab=0x100\x00\
     spurconfig=0x3\x00\
     glitch_based_crsmin=1\x00\
-    btc_mode=0\x00\
+    btc_mode=1\x00\
     \x00";
